@@ -1,0 +1,5 @@
+{
+  "name":"server-health-monitoring-system","version":"2.0.0","private":true,"description":"Combined role-protected server health monitoring application",
+  "main":"server.js","scripts":{"start":"node server.js","create-admin":"node create-admin.js"},
+  "dependencies":{"bcryptjs":"^2.4.3","express":"^4.21.2","express-session":"^1.18.1","systeminformation":"^5.27.7"}
+}
